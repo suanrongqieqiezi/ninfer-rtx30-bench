@@ -1,0 +1,88 @@
+{
+  "base": {
+    "flags": [],
+    "status": "ok",
+    "prefill7k": [
+      {
+        "sec": 5.42,
+        "prompt_tokens": 7599,
+        "completion_tokens": 1,
+        "text": ""
+      },
+      {
+        "sec": 0.06,
+        "prompt_tokens": 7599,
+        "completion_tokens": 1,
+        "text": ""
+      },
+      {
+        "sec": 0.01,
+        "prompt_tokens": 7599,
+        "completion_tokens": 1,
+        "text": ""
+      }
+    ],
+    "decode": [
+      {
+        "sec": 1.99,
+        "prompt_tokens": 75,
+        "completion_tokens": 233,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      },
+      {
+        "sec": 1.96,
+        "prompt_tokens": 75,
+        "completion_tokens": 233,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      }
+    ],
+    "decode_md5": "1542b9b6442f42b5c7d8d9981a7b4a51"
+  },
+  "cublas": {
+    "flags": [
+      "--prefill-cublas"
+    ],
+    "status": "ok",
+    "prefill7k": [
+      {
+        "sec": 5.48,
+        "prompt_tokens": 7599,
+        "completion_tokens": 1,
+        "text": ""
+      },
+      {
+        "sec": 0.06,
+        "prompt_tokens": 7599,
+        "completion_tokens": 1,
+        "text": ""
+      },
+      {
+        "sec": 0.01,
+        "prompt_tokens": 7599,
+        "completion_tokens": 1,
+        "text": ""
+      }
+    ],
+    "decode": [
+      {
+        "sec": 2.0,
+        "prompt_tokens": 75,
+        "completion_tokens": 233,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      },
+      {
+        "sec": 1.97,
+        "prompt_tokens": 75,
+        "completion_tokens": 233,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      }
+    ],
+    "decode_md5": "1542b9b6442f42b5c7d8d9981a7b4a51"
+  },
+  "mtpq4": {
+    "flags": [
+      "--mtp-experts-q4"
+    ],
+    "status": "boot_failed"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "base": {
+    "flags": [],
+    "status": "ok",
+    "P1_repeat": [
+      {
+        "sec": 1.89,
+        "completion_tokens": 256,
+        "tok_s": 135.71,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      },
+      {
+        "sec": 1.64,
+        "completion_tokens": 256,
+        "tok_s": 156.39,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      }
+    ],
+    "P2_normal": [
+      {
+        "sec": 1.99,
+        "completion_tokens": 233,
+        "tok_s": 117.04,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      },
+      {
+        "sec": 1.95,
+        "completion_tokens": 233,
+        "tok_s": 119.55,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      }
+    ],
+    "P3_prefill": [
+      {
+        "sec": 1.0,
+        "completion_tokens": 4,
+        "tok_s": 3.99,
+        "text": ""
+      },
+      {
+        "sec": 0.15,
+        "completion_tokens": 4,
+        "tok_s": 26.02,
+        "text": ""
+      }
+    ],
+    "P2_text_md5": "1542b9b6442f42b5c7d8d9981a7b4a51",
+    "P2_text_head": "Mixture-of-experts models partition parameters into multiple expert subnetworks "
+  },
+  "lookup8": {
+    "flags": [
+      "--lookup-ngram",
+      "8"
+    ],
+    "status": "ok",
+    "P1_repeat": [
+      {
+        "sec": 1.91,
+        "completion_tokens": 256,
+        "tok_s": 134.3,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      },
+      {
+        "sec": 1.65,
+        "completion_tokens": 256,
+        "tok_s": 154.79,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      }
+    ],
+    "P2_normal": [
+      {
+        "sec": 2.0,
+        "completion_tokens": 233,
+        "tok_s": 116.54,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      },
+      {
+        "sec": 1.95,
+        "completion_tokens": 233,
+        "tok_s": 119.36,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      }
+    ],
+    "P3_prefill": [
+      {
+        "sec": 1.0,
+        "completion_tokens": 4,
+        "tok_s": 3.99,
+        "text": ""
+      },
+      {
+        "sec": 0.16,
+        "completion_tokens": 4,
+        "tok_s": 25.25,
+        "text": ""
+      }
+    ],
+    "P2_text_md5": "1542b9b6442f42b5c7d8d9981a7b4a51",
+    "P2_text_head": "Mixture-of-experts models partition parameters into multiple expert subnetworks "
+  },
+  "mlp_a8_decode": {
+    "flags": [
+      "--mlp-a8-decode"
+    ],
+    "status": "ok",
+    "P1_repeat": [
+      {
+        "sec": 1.89,
+        "completion_tokens": 256,
+        "tok_s": 135.19,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      },
+      {
+        "sec": 1.65,
+        "completion_tokens": 256,
+        "tok_s": 155.08,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      }
+    ],
+    "P2_normal": [
+      {
+        "sec": 2.01,
+        "completion_tokens": 233,
+        "tok_s": 116.06,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      },
+      {
+        "sec": 1.96,
+        "completion_tokens": 233,
+        "tok_s": 119.02,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      }
+    ],
+    "P3_prefill": [
+      {
+        "sec": 1.01,
+        "completion_tokens": 4,
+        "tok_s": 3.96,
+        "text": ""
+      },
+      {
+        "sec": 0.17,
+        "completion_tokens": 4,
+        "tok_s": 23.39,
+        "text": ""
+      }
+    ],
+    "P2_text_md5": "1542b9b6442f42b5c7d8d9981a7b4a51",
+    "P2_text_head": "Mixture-of-experts models partition parameters into multiple expert subnetworks "
+  },
+  "prefill_cublas": {
+    "flags": [
+      "--prefill-cublas"
+    ],
+    "status": "ok",
+    "P1_repeat": [
+      {
+        "sec": 1.91,
+        "completion_tokens": 256,
+        "tok_s": 134.24,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      },
+      {
+        "sec": 1.64,
+        "completion_tokens": 256,
+        "tok_s": 156.12,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps"
+      }
+    ],
+    "P2_normal": [
+      {
+        "sec": 1.99,
+        "completion_tokens": 233,
+        "tok_s": 116.81,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      },
+      {
+        "sec": 1.96,
+        "completion_tokens": 233,
+        "tok_s": 118.88,
+        "text": "Mixture-of-experts models partition parameters into multiple expert subnetworks and route each token to only a small subset of those experts. As a result, only the parameters in the selected experts are computed for that token, so the active parameter count is much lower than a dense model that uses all parameters on every token."
+      }
+    ],
+    "P3_prefill": [
+      {
+        "sec": 1.01,
+        "completion_tokens": 4,
+        "tok_s": 3.96,
+        "text": ""
+      },
+      {
+        "sec": 0.16,
+        "completion_tokens": 4,
+        "tok_s": 25.33,
+        "text": ""
+      }
+    ],
+    "P2_text_md5": "1542b9b6442f42b5c7d8d9981a7b4a51",
+    "P2_text_head": "Mixture-of-experts models partition parameters into multiple expert subnetworks "
+  },
+  "kv_k8v4": {
+    "flags": [
+      "--kv-dtype",
+      "k8v4"
+    ],
+    "status": "ok",
+    "P1_repeat": [
+      {
+        "sec": 2.03,
+        "completion_tokens": 256,
+        "tok_s": 125.81,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog"
+      },
+      {
+        "sec": 1.78,
+        "completion_tokens": 256,
+        "tok_s": 144.21,
+        "text": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog"
+      }
+    ],
+    "P2_normal": [
+      {
+        "sec": 2.09,
+        "completion_tokens": 239,
+        "tok_s": 114.15,
+        "text": "Mixture-of-experts models contain many expert parameters in total, but a router activates only a small subset of those experts for each token. As a result, each forward pass computes only the parameters of the selected experts, so the number of active parameters per token is much smaller than in a dense model of the same total size."
+      },
+      {
+        "sec": 2.06,
+        "completion_tokens": 239,
+        "tok_s": 115.85,
+        "text": "Mixture-of-experts models contain many expert parameters in total, but a router activates only a small subset of those experts for each token. As a result, each forward pass computes only the parameters of the selected experts, so the number of active parameters per token is much smaller than in a dense model of the same total size."
+      }
+    ],
+    "P3_prefill": [
+      {
+        "sec": 1.04,
+        "completion_tokens": 4,
+        "tok_s": 3.85,
+        "text": ""
+      },
+      {
+        "sec": 0.16,
+        "completion_tokens": 4,
+        "tok_s": 25.67,
+        "text": ""
+      }
+    ],
+    "P2_text_md5": "f71496eec81d2d7cb6b2417d9d0195ee",
+    "P2_text_head": "Mixture-of-experts models contain many expert parameters in total, but a router "
+  }
+}

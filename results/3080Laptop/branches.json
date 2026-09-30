@@ -1,0 +1,18 @@
+[
+  {
+    "name": "dev",
+    "commit": {
+      "sha": "e621c7d69b65fba8ccaf291dcd8b3de8f8462a2a",
+      "url": "https://api.github.com/repos/Neroued/ninfer/commits/e621c7d69b65fba8ccaf291dcd8b3de8f8462a2a"
+    },
+    "protected": false
+  },
+  {
+    "name": "master",
+    "commit": {
+      "sha": "d44ab58408aa389728cd8b1ee50179527e1f3e0d",
+      "url": "https://api.github.com/repos/Neroued/ninfer/commits/d44ab58408aa389728cd8b1ee50179527e1f3e0d"
+    },
+    "protected": true
+  }
+]

@@ -1,0 +1,8 @@
+*.exe
+*.ninfe
+*.exp
+*.lib
+*.obj
+__pycache__/
+*.pyc
+_inventory.txt

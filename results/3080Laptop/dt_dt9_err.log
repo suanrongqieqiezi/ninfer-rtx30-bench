@@ -1,0 +1,25 @@
+2026-09-27 22:45:55.969  INFO  starting engine
+2026-09-27 22:45:56.977  INFO  loading weights | 7.99 GiB
+2026-09-27 22:45:59.717  INFO  weights ready | 7.99 GiB | 2.7s | 2.92 GiB/s
+2026-09-27 22:45:59.732  INFO  pinning host state | 1.46 GiB
+2026-09-27 22:45:59.822  INFO  host state pinned | 1.46 GiB | 90.2 ms
+2026-09-27 22:45:59.822  INFO  pinning host KV | 8.00 GiB
+2026-09-27 22:46:00.001  INFO  host KV pinned | 2.40 GiB | 179 ms
+2026-09-27 22:46:00.717  INFO  CUDA graphs ready | 601 ms
+2026-09-27 22:46:00.719  INFO  engine ready | bonsai2-27b | total 4.7s | weights 7.99 GiB | CUDA sync auto
+2026-09-27 22:46:00.719  INFO  capacity | KV 8,192 tokens, bf16, explicit | pages 128/128 | runtime 1.38 GiB | free 5.77 GiB
+2026-09-27 22:46:00.719  INFO  context cache | 1 active + 1 cached device states | host 8 states, 2.40 GiB KV | private 2 | shared 4 | anchors 2
+2026-09-27 22:46:00.869  INFO  listening on http://127.0.0.1:8907 | model bonsai2-27b | auth disabled
+2026-09-27 22:46:00.869  INFO  api base http://127.0.0.1:8907/v1
+2026-09-27 22:46:02.376  INFO  req#1 started | openai-chat non-stream | 1 message | max output 32 | thinking template default
+2026-09-27 22:46:02.717  INFO  req#1 done | openai-chat | output limit | prompt 75 | output 32 | cache 0 (0.0%) | TTFT 176 ms | total 342 ms | prefill 462.2 tok/s | decode 187.4 tok/s | dflash2 accepted 26/36 (72.2%)
+2026-09-27 22:46:02.720  INFO  req#2 started | openai-chat non-stream | 1 message | max output 264 | thinking template default
+2026-09-27 22:46:04.976  INFO  req#2 done | openai-chat | output limit | prompt 364 | output 264 | cache 0 (0.0%) | TTFT 414 ms | total 2.3s | queue 48.9 ms | prefill 1.14k tok/s | decode 142.8 tok/s | dflash2 accepted 209/485 (43.1%)
+2026-09-27 22:46:04.978  INFO  req#3 started | openai-chat non-stream | 1 message | max output 264 | thinking template default
+2026-09-27 22:46:05.875  INFO  throughput | 5.0s | prefill 88.7 tok/s (444 tok) | decode 77.3 tok/s (387 tok) | running 1 (decode-ready 1) | batch 1.00 | host 5.3% (267 ms)
+2026-09-27 22:46:06.951  INFO  req#3 done | openai-chat | output limit | prompt 364 | output 264 | cache 359 (98.6%, turn closure) | TTFT 94.4 ms | total 2.0s | queue 40.0 ms | prefill 92.1 tok/s | decode 143.1 tok/s | dflash2 accepted 209/485 (43.1%)
+2026-09-27 22:46:06.953  INFO  req#4 started | openai-chat non-stream | 1 message | max output 256 | thinking template default
+2026-09-27 22:46:09.463  INFO  req#4 done | openai-chat | stop token | prompt 75 | output 252 | cache 70 (93.3%, turn closure) | TTFT 95.2 ms | total 2.5s | queue 43.6 ms | prefill 96.5 tok/s | decode 105.8 tok/s | dflash2 accepted 181/632 (28.6%)
+2026-09-27 22:46:09.465  INFO  req#5 started | openai-chat non-stream | 1 message | max output 256 | thinking template default
+2026-09-27 22:46:10.871  INFO  throughput | 5.0s | prefill 2.0 tok/s (10 tok) | decode 108.7 tok/s (543 tok) | running 1 (decode-ready 1) | batch 1.00 | host 1.8% (87.8 ms)
+2026-09-27 22:46:11.932  INFO  req#5 done | openai-chat | stop token | prompt 75 | output 252 | cache 70 (93.3%, turn closure) | TTFT 92.0 ms | total 2.5s | queue 38.8 ms | prefill 94.1 tok/s | decode 105.8 tok/s | dflash2 accepted 181/632 (28.6%)
