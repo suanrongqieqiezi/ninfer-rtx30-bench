@@ -87,6 +87,8 @@ A：官方指标为聚合基准保留 98.2%（83.9 分），编码、工具调�
 
 ## 协议与出处
 
+- 本构建的移植思路参考 B 站 UP 主 **沈三殊** 的《token自由=bonsai27b+ninfer 8g显卡流畅运行》，面向 RTX 30 系重编译并实测；
+- 引擎 NInfer（GitHub Neroued）与模型 Ternary-Bonsai-2-27B（PrismML）版权归原项目所有；
 - NInfer 采用 Apache 2.0 协议；本构建的两处改动已如上声明，编译方法可提供；
 - `.ninfer` 模型工件来自 HuggingFace 社区仓库 WaveCut/Ternary-Bonsai-2-27B-NInfer-v3（Apache 2.0）；模型由 PrismML 训练发布；
 - 与 NInfer / PrismML 官方无关，引擎层问题请查阅官方仓库。
